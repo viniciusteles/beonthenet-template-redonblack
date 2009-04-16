@@ -1,0 +1,778 @@
+html {
+  min-height:             700px;
+  height:                 auto !important;
+  height:                 700px;
+}
+
+html * {
+	padding:                0;
+	border:                 none;
+	margin:                 0;
+}
+
+body {
+  width:                  62.5em;
+	margin:                 auto;
+}
+
+#header, #main_content, #footer {
+  padding-right:          3.9em;
+  padding-left:           3.9em;
+}
+
+hr, .emtpy, .empty, 
+#thumbnails li.empty, 
+#selected_pictures li.empty {
+	display:                block;
+	float:                  none;
+	height:                 0;
+	padding:                0;
+	margin:                 0;
+	clear:                  both;
+	visibility:             hidden;
+}
+
+a {
+	outline:                none;
+}
+
+
+/* Header tabbed menu */
+#header {
+  min-height:             38px;
+  height:                 80px;
+  padding-top:            7px;
+  padding-bottom:         0;
+  position:               relative;
+}
+
+#header h1#logo_print {
+  display:                none;
+}
+
+
+#header h1#logo_screen {
+  height:                 60px;
+  margin:                 0px;
+  padding:                22px 40px 5px 40px;
+  position:               absolute;
+  top:                    0px;
+  left:                   60px;
+}
+
+#logo_screen img {
+  display:                block;
+}
+
+#slogan {
+  width:                  250px;
+  position:               absolute;
+  top:                    14px;
+  right:                  230px;
+}
+
+#header ul {
+  padding-top:            6px;
+  position:               relative;
+  top:                    80px;
+}
+
+#header li {
+  display:                inline;
+  padding:                8px 0 13px 7px;
+}
+
+#header li a {
+  padding:                8px 15px 13px 30px;
+  margin:                 0 -5px 0 -7px;
+}
+/* /Header tabbed menu */
+
+
+/* Main content top segment */
+#main_content {
+  padding:                73px 62px;
+}
+
+#subnavigation {
+  padding:                0;
+  margin:                 -1.6em 0 2.3em 0;
+}
+
+#subnavigation a {
+  margin-right:           2.5em;
+}
+
+#subnavigation a, #see_data_sheet {
+  padding-left:           20px;
+}
+
+h1 {
+  margin-bottom:          0.7em;
+}
+body#selection h1 {
+	float:                  left;
+}
+/* /Main content top segment */
+
+
+/* Thumbnails */
+ul#thumbnails {
+  margin-right:           -3.9em;
+
+}
+
+ul#thumbnails li {
+	float:                  left;
+	width:                  260px;
+	height:			            330px;
+  padding:                14px 50px 50px 50px;
+  margin:                 0 5.9em .5em 0;
+  position:               relative;
+}
+
+ul#thumbnails li h3, 
+ul#thumbnails li h4 {
+  position: relative;
+  top: 300px;
+}
+
+ul#thumbnails li div {
+  position:               absolute;
+  top:                    50px;
+  left:                   50px;
+}
+
+/* Vertically centering images 
+(conditional comments for IE required) */
+ul#thumbnails li div a {
+	display:                table-cell;
+	width:                  260px;
+	height:                 260px;
+	vertical-align:         middle;
+}
+
+ul#thumbnails li div a label {
+	width:                  auto;
+	position:               absolute;
+	bottom:                 3px;
+	left:                   6px;
+}
+
+body.videos#index ul#thumbnails li {
+	width:                  260px;
+	height:			280px;
+ 	margin:                 0 0em 1.5em 0;
+	padding: 20px 15px 20px 25px;
+}
+
+body.videos#index ul#thumbnails li div {
+  left: 24px;
+}
+
+body.videos#index ul#thumbnails li div a {
+	display:                table-cell;
+	width:                  250px;
+	height:                 188px;
+	vertical-align:         middle;
+}
+
+body.videos #thumbnails h3 {
+  height:                 2em;
+  width: 250px;
+  top: 225px;
+  padding: 5px;
+}
+
+body.videos #thumbnails h4 {
+  top: 215px;
+  padding: 5px;
+}
+
+body.videos #thumbnails img {
+  width:                  240px;
+}
+/* /Thumbnails */
+
+
+/* Summary */
+#summary, #about_us, #data_sheet, body.application #main_content ul, #picture_description {
+	padding:                .65em 7.5em;
+	border:                 1px solid;
+  margin-bottom:          10px;
+}
+
+#summary, #picture_description {
+	position:               relative;
+	clear:                  both;
+}
+
+#summary {
+	min-height:             4.5em;
+	height:                 auto !important;
+	height:                 4.5em;
+	padding-right:          20em;
+}
+
+
+/* /Summary */
+
+
+/* Link to Selection */
+#go_to_selection a {
+	width:                  7em;
+	height:                 6em;
+	padding-left:           85px;
+	position:               absolute;
+	top:                    1em;
+	right:                  8em;
+}
+/* /Link to Selection */
+
+
+/* Paging */
+.pages {
+  padding:                1px 20px 3px 20px;
+  margin:                 5px 0;
+  border:                 0px solid;
+  clear:                  both;
+}
+
+.pages a, .pages strong {
+  padding:                0 .25em;
+}
+
+.pages strong {
+	position:               relative;
+	top:                    .15em;
+}
+
+.pages a.previous {
+  padding-left:           15px;
+}
+
+.pages a.next {
+  padding-right:          15px;
+}
+
+.second {
+  position:               relative;
+  bottom:                 15px;
+}
+/* /Paging */
+
+
+/* Data sheet */
+#data_sheet {
+	padding-top:            0;
+	padding-bottom:         1.5em;
+	clear:                  both;
+}
+
+#data_sheet h2 {
+  margin:                 1.5em 0 1em 0;
+}
+
+#data_sheet dt {
+	float:                  left;
+	clear:                  left;
+  margin-right:           .5em;
+}
+
+#data_sheet li {
+  margin-bottom:           20px;
+}
+/* /Data sheet */
+
+/* Big picture, big video */
+#big_picture, #big_video {
+  width:                  100%;
+	margin-bottom:          1em;
+	margin-top:             50px;
+  border-width:           1px;
+  border-style:           solid;
+	position:               relative;
+  z-index:                5;
+}
+
+#big_picture a, #big_video a {
+	width:                  4.75em;
+  position:               absolute;
+	top:                    -40px;
+}
+
+#big_picture #previous  {
+	right:                  183px;
+}
+
+#big_video #previous {
+	right:                  100px;
+}
+
+#big_picture #next {
+	right:                  -5px;
+}
+
+#big_video #next {
+	right:                  40px;
+}
+
+#big_picture a span, #big_video a span {
+	width:                  101%;
+	height:                 60px;
+	position:               absolute;
+}
+
+#big_picture img {
+  padding:                2px;
+  border:                 1px solid;
+}
+
+#big_picture label {
+	width:                  13%;
+	padding:                3px;
+	position:               absolute;
+  top:                    -44px;
+	right:                  35px;
+}
+
+#big_video object p {
+  margin:                 1.5em 10em;
+}
+
+#big_video label {
+  display:                block;
+  margin:                 .25em auto 0 auto;
+  width:                  auto;
+}
+
+#big_video label span {
+  display:                block;
+}
+
+#big_video object a {
+  position:               static;
+}
+/* /Big picture, big video */
+
+
+/* Tags */
+#tags {
+  margin:                 .6em 0;
+}
+
+#tags h3, #tags p, #tags a {
+	display:                inline;
+  margin-right:           .7em;
+}
+/* /Tags */
+
+
+/* Selection */
+#all_pictures {
+	float:                  left;
+	width:                  31em;
+	margin-top:             .5em;
+	margin-bottom:          -3.5em;
+	position:               relative;
+	z-index:                3;
+}
+
+#cart_items {
+  width:                  20.25em;
+	min-height:             405px;
+	height:                 25.3em;
+	border:                 1px solid;
+	margin-top:             .75em;
+	margin-left:            34.35em;
+	position:               relative;
+	z-index:                2;
+}
+
+#all_pictures li, #cart_items li, #selected_pictures li {
+	float:                  left;
+	width:                  75px;
+	height:                 75px;
+	margin:                 3px;
+	position:               relative;
+}
+
+#selected_pictures {
+/*  width: 410px;*/
+}
+
+#all_pictures li label, #all_pictures li a, 
+#cart_items label, #cart_items a, 
+#selected_pictures label, #selected_pictures a {
+	width:                  auto;
+	padding:                1px 3px;
+	margin:                 0;
+	position:               absolute;
+	bottom:                 1px;	
+}
+
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+	left:                   1px;
+}
+
+#all_pictures a, #cart_items a, 
+#selected_pictures a {
+	right:                  1px;
+}
+
+#all_pictures a:hover, 
+#cart_items a:hover, 
+#selected_pictures a:hover {
+	width:                  12px;
+	height:                 16px;
+}
+
+#selected_pictures a.remove_picture {
+	padding:                0;
+	position:               static;
+}
+
+.cart-active, .move {
+	cursor:                 move;
+}
+
+
+body#selection #selection_size {
+  float:                  right;
+  margin-right:           -22.75em;
+	position:               relative;
+	top:                    .5em;
+  right:                  37em;
+	z-index:                1;
+	visibility: hidden;
+}
+body#selection #selection_size label {
+	display:                inline;
+	padding:                .34em 1.5em .35em .8em;
+	margin-left:            3em;
+	visibility:             visible;
+
+}
+
+body#checkout #selection_size, 
+body#pictures_sent #selection_size {
+  margin-bottom:          20px;
+}
+body#checkout #selection_size label, 
+body#pictures_sent #selection_size label, 
+body#search #search_result_count label {
+  display:                inline;
+  margin:                 0;
+}
+
+.go_to_checkout {
+	min-height:             40px;
+	height:                 auto !important;
+	height:                 2.5em;
+ 	padding:                15px 75px 0 0;
+  margin:                 .5em 0 -.6em 40em;
+}
+
+#first.go_to_checkout {
+	position:               relative;
+	bottom:                 1.2em;
+}
+
+#back_to_gallery a {
+	display:                block;
+	margin:                 1.5em 0;
+}
+/* /Selection */
+
+
+/* Forms (contact, checkout, search) */
+label {
+	display:                block;
+	width:                  29%;
+	margin-top:             .2em;
+	margin-right:           1em;
+	padding: 3px;
+}
+
+input, textarea {
+	display:                block;
+	width:                  40%;
+	padding:                0 .3em;
+	border:                 1px inset;
+  margin:                 -1.25em -100px .75em 18em;
+}
+
+input:hover, textarea:hover {
+	border:                 1px solid;
+}
+
+button, button * {
+	outline:                none;
+}
+
+button {
+	display:                block;
+  padding:                .2em .5em;
+	border:                 0px outset;
+  margin:                 auto;
+}
+button:active {
+	border-style:           inset;
+}
+
+.submitting {
+  padding-right:          2.5em;
+	position:               relative;
+	left:                   1em;
+}
+.submitting:active {
+	border-style:           outset;
+}
+
+#submit_error, #submit_success {
+	padding:                .5em 8em;
+	margin-bottom:          1em;
+}
+
+/* Specific for checkout e-mail form */                 /* WARNING: includes "pictures_sent" bug! */
+body#checkout #order_form, 
+body#pictures_sent #order_form {
+  margin-top:             1.5em;
+}
+
+body#pictures_sent #submit_error {
+  margin:                 2em 0 -2em 0;
+}
+
+/* Specific for global search form */
+#global_search {
+	width:                  9em;
+	padding-left:           25px;
+	position:               absolute;
+	top:                    .8em;
+	right:                  1.85em;
+}
+
+#global_search fieldset {
+	padding-right:          10px;
+}
+
+#global_search #search_type {
+	display:                none;
+}
+
+#global_search #query {
+	width:                  100%;
+	height:                 20px;
+	padding:                0 0 0 3px;
+	border:                 none;
+  margin:                 0;
+}
+
+/* /Forms (contact, checkout, search) */
+
+
+/* Errors (404, 500, timeout, empty search results) */
+p#not_found {
+  margin:                 2em 0 -2em 0;
+	position:               relative;
+	z-index:                1;
+}
+	
+body.application #main_content h2 {
+	padding-top:            210px;
+  margin:                 0 0 2em 0;
+}
+
+#valid_search_suggestions {
+	padding-left:           23em;
+	margin-top:             1.2em;
+}
+
+#searched_item {
+	padding: 3px;
+}
+
+#valid_search_suggestions li a:hover {
+	padding: 3px;
+}
+
+
+/* /Errors (404, 500, timeout, empty search results) */
+
+
+/* Facebox */
+#facebox {
+	position:               absolute;
+	top:                    5em;
+	z-index:                100;
+}
+body > #facebox {
+	right:                  0;
+	left:                   0;
+}
+
+#facebox div {
+	min-width:              50px;
+	width:                  50px;
+	padding-top:            10px;
+  margin:                 auto;
+}
+#facebox > div {
+	width:                  auto;
+	display:                table;
+}
+
+#facebox p {
+	padding:                0 0 0 18px;
+	background-position:    bottom left;
+	position:               relative;
+}
+
+#facebox a {
+	padding:                15px 18px 0 0;
+	background-position:    top right;
+	outline:                none;
+	position:               absolute;
+	top:                    -10px;
+	right:                  0;
+}
+#facebox p > a {
+	left:                   10px;
+}
+
+#facebox img {
+	padding:                20px 18px 18px 0;
+	background-position:    bottom right;
+	margin-bottom:          -2px;
+}
+#facebox p > img {
+	margin-bottom:          -6px;
+}
+*:first-child + html #facebox img {
+	margin-bottom:          -2px;
+}
+/* /Facebox */
+
+
+/* Footer */
+#footer {
+  padding:                1.25em 3.9em 50px 3.9px;
+	margin-bottom:          20em;
+}
+
+#footer p, #footer strong, #footer h6 {
+	margin-bottom:          .5em;
+}
+/* /Footer */
+
+
+/* Text */
+.text #main_content {
+  padding-right:          170px;
+  padding-left:           170px;
+}
+
+.text #main_content p {
+  margin:                 1em 0;
+}
+
+.text #toc {
+  float:                  left;
+  padding:                .75em .75em .75em 1.5em;
+  border:                 1px solid;
+  margin:                 0 2em 1em 0 !important;
+}
+
+.text #main_content p {
+  margin:                 1em 0;
+}
+
+.text #main_content h1 {
+  margin-right:           -108px;
+  margin-left:            -108px;
+}
+
+.text #main_content h2 {
+  clear:                  left;
+  padding:                1.5em 0 1em 0;
+}
+
+.text #main_content h3 {
+  padding:                1em 0 .75em 0;
+}
+
+.text #main_content h4 {
+  margin-top:             -.8em;
+}
+
+.text #main_content dl, 
+.text #main_content ul {
+  margin:                 1.6em 4em;
+}
+
+.text dt {
+  float:                  left;
+  margin-right:           .5em;
+  padding:					      0 3px 0 4px;
+}
+
+.text #main_content dd {
+  margin:                 .25em 0 1em 2.5em;
+}
+
+.text #main_content ul li {
+  margin-bottom:          1em;
+}
+
+.text #main_content ul ul {
+  margin:                 0 1em;
+}
+
+.text table {
+  border-collapse:        collapse;
+  margin:                 auto;
+}
+
+.text table * {
+  border:                 1px solid;
+}
+
+.text th {
+  padding:                .5em 1.5em;
+}
+
+.text td {
+  padding:                .5em 1.5em;
+}
+
+.text td span {
+  display:                block;
+  border:                 none;
+  margin:                 0 1.5em;
+}
+
+.text td a, 
+.text td code {
+  border:                 none;
+  margin:                 0 -1em;
+  white-space:            nowrap;
+}
+
+.text td code {
+  display:                block;
+  margin-top:             .75em;
+}
+
+pre {
+  padding:                .5em 3em;
+  border:                 1px solid;
+  margin:                 1em 0;
+  overflow:               auto;
+}
+
+code {
+  padding:                .3em .5em;
+}
+/* /Text */
