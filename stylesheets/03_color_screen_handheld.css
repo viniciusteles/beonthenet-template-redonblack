@@ -7,13 +7,16 @@ html {
   background:             #222;
 }
 
+a:link {
+  color:                  #BBB;
+}
+
 a:visited {
   color:                  #777;
 }
 
 a:focus, a:hover, a:active {
   color:                  #990202;
-/*  color:                                                          #a41212;*/
 }
 
 h1 {
