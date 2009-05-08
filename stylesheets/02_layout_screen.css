@@ -190,7 +190,7 @@ body.videos #thumbnails h4 {
 }
 
 body.videos #thumbnails img {
-  width:                  240px;
+  max-width:                  240px;
 }
 /* /Thumbnails */
 

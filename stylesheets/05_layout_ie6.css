@@ -5,6 +5,10 @@ body {
 	overflow:               hidden;
 }
 
+body.videos #thumbnails img {
+  width:expression(this.width > 240 ? "240px" : true);
+}
+
 .pages {
   padding:                1px 20px 5px 20px;
   margin:                 5px 0;
