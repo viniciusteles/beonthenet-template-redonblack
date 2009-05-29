@@ -110,7 +110,7 @@ a {
 h1 {
   margin-bottom:          0.7em;
 }
-body#selection h1 {
+#selection #main_content h1 {
 	float:                  left;
 }
 /* /Main content top segment */
@@ -197,7 +197,7 @@ body.videos #thumbnails img {
 
 /* Summary */
 #summary, #about_us, #data_sheet, body.application #main_content ul, #picture_description {
-	padding:                .65em 7.5em;
+	padding:                .65em 7em;
 	border:                 1px solid;
   margin-bottom:          10px;
 }
@@ -211,10 +211,15 @@ body.videos #thumbnails img {
 	min-height:             4.5em;
 	height:                 auto !important;
 	height:                 4.5em;
-	padding-right:          20em;
+}
+#gallery #summary, #picture #summary {
+  padding-right:          20em;
 }
 
-
+.text #summary {
+  margin-right:           -108px;
+  margin-left:            -108px;
+}
 /* /Summary */
 
 
@@ -658,12 +663,22 @@ body > #facebox {
 
 /* Footer */
 #footer {
-  padding:                1.25em 3.9em 50px 3.9px;
+  padding:                1.25em 3.9em 50px 3.9em;
 	margin-bottom:          20em;
 }
 
 #footer p, #footer strong, #footer h6 {
 	margin-bottom:          .5em;
+}
+
+#beonthenet img {
+  width:                  95px;
+  height:                 22px;
+  margin:                 0 -4px -3px 0;
+}
+
+#footer h5 {
+  margin:                 2em 0 .5em 0;
 }
 /* /Footer */
 

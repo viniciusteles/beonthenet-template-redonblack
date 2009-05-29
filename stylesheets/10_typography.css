@@ -330,13 +330,20 @@ body.application #main_content li {
 
 
 /* Footer */
-#footer p, #footer h6 {
+#footer * {
   text-align:             right;
   line-height:						1.25em;
 }
 
+#footer h1, #footer h2, 
+#footer h5 {
+  font-weight:            normal;
+  font-size:              70%;
+  font-variant:           normal;
+}
+
 #footer h6 {
-  font-size:							70%;
+  font-size:              60%;
 }
 /* /Footer */
 
