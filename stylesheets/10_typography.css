@@ -22,6 +22,16 @@ h1 {
   font-variant:           small-caps;
   font-size:              200%;
 }
+#gallery h1, #search h1 {
+  font-variant:           normal;
+  font-size:              95%;
+  
+}
+#gallery h1 em, #search h1 em {
+  font-style:             normal;
+  font-variant:           small-caps;
+  font-size:              200%; 
+}
 
 h2 {
   font-size:              95%;
@@ -43,12 +53,17 @@ h4 a:focus, h4 a:hover {
 
 
 /* Header tabbed menu */
-#header h1 a, 
-#header h1 a img {
+#header p strong a, 
+#header p strong a img {
+  font-size:              270%;
   text-align:             center;
+}
+#header p strong a img {
+  font-size:              100%;
 }
 
 #slogan {
+  font-style:             normal;
   font-size:              90%;
   text-align:             right;
 }
@@ -72,6 +87,22 @@ h4 a:focus, h4 a:hover {
 /* Thumbnails */
 ul#thumbnails li {
   font-size:     	         100%;
+}
+
+#thumbnails h2, #thumbnails h2 a {
+  font-variant:           small-caps;
+  line-height:            .8em;
+}
+
+#thumbnails h3, #thumbnails h3 a {
+  font:                   92%/1.5em "Times New Roman", Times, serif;
+  text-decoration:        none;
+}
+#thumbnails h3 a {
+  font-size:              100%;
+}
+#thumbnails h3 a:hover {
+  text-decoration:        underline;
 }
 
 ul#thumbnails li div a {
@@ -335,11 +366,15 @@ body.application #main_content li {
   line-height:						1.25em;
 }
 
-#footer h1, #footer h2, 
+#footer h2, 
+#footer h3, #footer h3 a, 
 #footer h5 {
   font-weight:            normal;
   font-size:              70%;
   font-variant:           normal;
+}
+#footer h3 a {
+  font-size:              100%;
 }
 
 #footer h6 {
