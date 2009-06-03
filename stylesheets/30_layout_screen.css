@@ -181,13 +181,13 @@ body.videos#index ul#thumbnails li div a {
 
 body.videos #thumbnails h2 {
   height:                 2em;
-  width: 250px;
+  width: 240px;
   top: 225px;
   padding: 5px;
 }
 
 body.videos #thumbnails h3 {
-  top: 215px;
+  top: 225px;
   padding: 5px;
 }
 
