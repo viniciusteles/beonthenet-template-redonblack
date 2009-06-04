@@ -22,7 +22,8 @@ body {
 
 hr, .emtpy, .empty, 
 #thumbnails li.empty, 
-#selected_pictures li.empty {
+#selected_pictures li.empty, 
+body.videos#index ul#thumbnails li.empty {
 	display:                block;
 	float:                  none;
 	height:                 0;
