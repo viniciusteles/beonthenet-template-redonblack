@@ -30,19 +30,8 @@ hr {
 }
 
 body#selection #selection_size {
-	position:               relative;
-	top:                    .5em;
-	z-index:                1;
-	visibility:             visible;
-	float:                  right;
-	left:                   -570px;
-	overflow:               hidden;
-	color:                  #333333;
-	
-}
-
-body#selection h2#selection_size label {
-	visibility:             visible;
+  left:                   -570px;
+  visibility:             visible;
 }
 
 #big_picture label {
