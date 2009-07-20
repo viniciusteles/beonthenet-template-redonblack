@@ -193,12 +193,11 @@ body.videos #thumbnails h3 {
 }
 
 body.videos #thumbnails img {
-  max-width:                  240px;
+/*  max-width:                  240px;*/
+  width:                  240px;
 }
 
-body.videos #thumbnails img.vimeo {
-  width:                  160px;
-}
+
 /* /Thumbnails */
 
 
