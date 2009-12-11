@@ -211,15 +211,15 @@ ul#thumbnails a:hover label {
 
 
 /* Link to Selection */
-#go_to_selection a {
+#go_to_selection {
 	background:             #000 url(../images/select_pictures.gif) no-repeat top left;
 }
-#go_to_selection a:link, 
-#go_to_selection a:visited {
+#go_to_selection:link, 
+#go_to_selection:visited {
   color: #FFFFFF;
 }
 
-#go_to_selection a:hover {
+#go_to_selection:hover {
   color:                  #990202;
 }
 /* /Link to Selection */
