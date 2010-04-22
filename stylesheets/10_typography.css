@@ -81,6 +81,12 @@ h4 a:focus, h4 a:hover {
   text-decoration:        none;
 	text-transform:         lowercase;
 }
+
+/* Para subtítulos em inglês no menu */
+#header li a em {
+  font-style:         italic;
+  font-size:          70%;
+}
 /* /Header tabbed menu */
 
 

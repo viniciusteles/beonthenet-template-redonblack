@@ -13,6 +13,7 @@ html * {
 body {
   width:                  62.5em;
 	margin:                 auto;
+	position:               relative;
 }
 
 #header, #main_content, #footer {
@@ -73,19 +74,29 @@ a {
 }
 
 #header ul {
-  padding-top:            6px;
-  position:               relative;
-  top:                    80px;
+  width:              1000px;
+  position:           absolute;
+  top:                87px;
+  right:              60px;
+}
+
+#header li, #header li a {
+  display:            inline-block;
+  vertical-align:     top;  
 }
 
 #header li {
-  display:                inline;
-  padding:                8px 0 13px 7px;
+  margin-left:        -.3em;
 }
 
 #header li a {
-  padding:                8px 15px 13px 30px;
-  margin:                 0 -5px 0 -7px;
+  height:             2.1em;
+  padding:            .5em 1em 0 1.5em;
+}
+
+/* Para subtítulos em inglês no menu */
+#header li a em {
+  display:            block;
 }
 /* /Header tabbed menu */
 
@@ -196,8 +207,6 @@ body.videos #thumbnails img {
 /*  max-width:                  240px;*/
   width:                  240px;
 }
-
-
 /* /Thumbnails */
 
 

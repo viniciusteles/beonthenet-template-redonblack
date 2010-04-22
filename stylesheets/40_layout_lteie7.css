@@ -5,13 +5,10 @@ hr {
 }
 
 /* Header tabbed menu */
-#header ul {
-  padding-top:            10px;
-}
-
 #header li {
-  padding:                0 0 0 7px;
-  margin-left:            10px;
+  display:            inline;
+  zoom:               1;
+  margin-left:        .15em;
 }
 /* /Header tabbed menu */
 
@@ -44,11 +41,6 @@ body#selection #selection_size {
 
 body.videos#index #main_content {
 /*  float: none;*/
-}
-
-
-#header li {
-	padding:                0;
 }
 
 
