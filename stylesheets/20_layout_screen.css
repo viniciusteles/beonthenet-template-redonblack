@@ -91,12 +91,14 @@ a {
 
 #header li a {
   height:             2.1em;
-  padding:            .5em 1em 0 1.5em;
+  padding:            .35em 1em .2em 1.5em;
 }
 
 /* Para subtítulos em inglês no menu */
 #header li a em {
   display:            block;
+  position:           relative;
+  top:                -.3em;
 }
 /* /Header tabbed menu */
 
