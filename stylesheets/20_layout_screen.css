@@ -133,6 +133,56 @@ h1 {
 /* /Main content top segment */
 
 
+/* Flickr */
+#main_content h5 {
+  padding:            0;
+  margin:             -3.25em 0 2.2em;
+}
+#gallery #main_content h5, #search #main_content h5 {
+  margin:             -2.2em 0 1.1em;
+}
+
+#main_content h5 a, #big_picture cite a {
+  display:            inline-block;
+  width:              36px;
+  height:             12px;
+  overflow:           hidden;
+  vertical-align:     bottom;
+}
+
+#thumbnails cite {
+  display:            block;
+  width:              15px;
+  height:             15px;
+  margin:             0;
+  position:           absolute;
+  top:                33px;
+  right:              48px;
+  overflow:           hidden;
+}
+
+#thumbnails cite a {
+  display:            inline-block;
+  padding:            6px 0 0 15px;
+}
+
+#big_picture #view_on_flickr, 
+#big_picture cite a {
+  position:           static;
+}
+
+#big_picture cite {
+  position:           absolute;
+  top:                -66px;
+  right:              57px;
+}
+
+body #footer h6 {
+  margin:             3em 0 0;
+}
+/* /Flickr */
+
+
 /* Thumbnails */
 ul#thumbnails {
   margin-right:           -3.9em;

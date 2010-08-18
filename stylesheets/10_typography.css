@@ -93,6 +93,36 @@ h4 a:focus, h4 a:hover {
 /* /Header tabbed menu */
 
 
+/* Flickr */
+#main_content h5, #main_content h5 a, 
+#big_picture cite {
+  font-style:         normal;
+  font-weight:        normal;
+}
+
+#main_content h5, #big_picture cite {
+  font-size:          70%;
+  text-align:         right;
+}
+
+#main_content h5 a, #big_picture cite a {
+  text-indent:        36px;
+}
+#main_content h5 a:hover {
+  text-decoration:    underline;
+}
+
+#thumbnails cite {
+  font-size:          60%;
+}
+
+body #footer h6 {
+  font-size:          9px;
+  letter-spacing:     .02em;
+}
+/* /Flickr */
+
+
 /* Thumbnails */
 ul#thumbnails li {
   font-size:     	         100%;
