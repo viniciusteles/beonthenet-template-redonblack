@@ -123,7 +123,7 @@ h4, h4 a {
 
 /* Flickr e Picasa */
 #main_content h5 a, #big_picture cite a {
-  background:         transparent url(../images/flickr_logo.png) no-repeat left;
+/*  background:         transparent url(../images/flickr_logo.png) no-repeat left;*/
 }
 
 #thumbnails cite.flickr a {

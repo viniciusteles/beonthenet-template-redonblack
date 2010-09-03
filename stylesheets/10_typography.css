@@ -106,9 +106,10 @@ h4 a:focus, h4 a:hover {
 }
 
 #main_content h5 a, #big_picture cite a {
-  text-indent:        36px;
+  font-size:          100%;
+/*  text-indent:        36px;*/
 }
-#main_content h5 a:hover {
+#main_content h5 a:hover, #big_picture cite a:hover {
   text-decoration:    underline;
 }
 
