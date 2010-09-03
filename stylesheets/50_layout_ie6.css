@@ -5,6 +5,18 @@ body {
 	overflow:               hidden;
 }
 
+
+/* Flickr e Picasa */
+#thumbnails cite.picasa a, #thumbnails cite.picasa a:hover {
+  filter:             alpha(opacity=40);
+  background-image:   url(http://beonthe.net/accounts/beonthe.net/images/icon_picasa_ie6.png);
+}
+#thumbnails cite.picasa a:hover {
+  filter:             alpha(opacity=100);
+}
+/* /Flickr e Picasa */
+
+
 body.videos #thumbnails img {
   width:expression(this.width > 240 ? "240px" : true);
 }

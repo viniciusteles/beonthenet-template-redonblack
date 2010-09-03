@@ -121,16 +121,23 @@ h4, h4 a {
 /* /Main content top segment */
 
 
-/* Flickr */
+/* Flickr e Picasa */
 #main_content h5 a, #big_picture cite a {
   background:         transparent url(../images/flickr_logo.png) no-repeat left;
 }
 
-#thumbnails cite a {
+#thumbnails cite.flickr a {
   background:         transparent url(../images/flickr.png) no-repeat left 6px;
 }
-#thumbnails cite a:hover {
+#thumbnails cite.flickr a:hover {
   background-image:   url(../images/flickr_hover.png);
+}
+
+#thumbnails cite.picasa a {
+  background:         transparent url(http://beonthe.net/accounts/beonthe.net/images/icon_picasa.png) no-repeat left 1px;
+}
+#thumbnails cite.picasa a:hover {
+  background-image:   url(http://beonthe.net/accounts/beonthe.net/images/icon_picasa_hover.png);
 }
 
 body #footer h6 {
@@ -139,7 +146,7 @@ body #footer h6 {
 body #footer h6 em {
   color:              #888;
 }
-/* /Flickr */
+/* /Flickr e Picasa */
 
 
 /* Thumbnails */
