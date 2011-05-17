@@ -754,7 +754,7 @@ body > #facebox {
 /* Footer */
 #footer {
   padding:                1.25em 3.9em 50px 3.9em;
-	margin-bottom:          20em;
+/*  margin-bottom:          20em;*/
 }
 
 #footer p, #footer strong, #footer h6 {
