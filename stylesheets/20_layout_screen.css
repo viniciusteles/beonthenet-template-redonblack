@@ -39,6 +39,38 @@ a {
 }
 
 
+/* Social network */
+#social_network {
+  text-align:             right;
+
+  display:                block;
+  padding:                3px 2px;
+}
+
+#social_network p {
+  height:                 16px;
+}
+
+#social_network a {
+  margin-left:            3px;
+}
+#social_network a:first-child {
+  float:                  left;
+  margin:                 0;
+
+  opacity:                .4;
+}
+#social_network a:first-child:hover {
+  opacity:                1;
+}
+
+#header {
+  border-top-left-radius:   3px;
+  border-top-right-radius:  3px;
+}
+/* /Social network */
+
+
 /* Header tabbed menu */
 #header {
   min-height:             38px;
