@@ -94,6 +94,10 @@ a {
   left:                   60px;
 }
 
+#logo_screen a {
+  display:                inline-block;
+}
+
 #logo_screen img {
   display:                block;
 }
