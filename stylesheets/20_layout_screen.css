@@ -480,6 +480,40 @@ body.videos #thumbnails img {
 /* /Tags */
 
 
+/* Testimonials */
+.depoimentos #main_content {
+  padding-bottom:         1px;
+}
+
+.depoimentos blockquote {
+  clear:                  both;
+  padding-left:           50px;
+  margin-top:             50px;
+  margin-left:            -50px;
+
+  background:             transparent url(../images/quotes.png) no-repeat top left;
+}
+
+.depoimentos blockquote img {
+  float:                  right;
+  margin:                 0 0 10px 20px;
+  border-radius:          2px;
+  box-shadow:             1px 1px 2px #222;
+}
+
+.depoimentos #main_content cite {
+  font-style:             italic;
+  font-size:              110%;
+  text-align:             left; 
+
+  display:                block;
+  margin-bottom:          50px;
+
+  color:                  #EEE;
+}
+/* Testimonials */
+
+
 /* Selection */
 #all_pictures {
 	float:                  left;
