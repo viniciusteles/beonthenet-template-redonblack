@@ -71,6 +71,61 @@ a {
 /* /Social network */
 
 
+/* Social media */
+.social_media {
+  padding:                          9px;
+  color:                            #FFF;
+  background:                       rgba(0,0,0,.8);
+}
+
+.social_media section {
+  display:                          inline-block;
+  width:                            49.5%;
+}
+
+.social_media em {
+  font-style:                       normal;
+  font-size:                        14px;
+}
+
+.social_media a {
+  text-decoration:                  none;
+  color:                            #DDD;
+}
+
+.social_media iframe {
+  vertical-align:                   middle;
+}
+
+@media screen and (min-width:1024px) {
+  .social_media {
+    padding-right:                  60px;
+    padding-left:                   60px;
+  }
+  .social_media section {
+    width:                          49.75%;
+  }
+}
+
+.social_links {
+  text-align:                       right;
+}
+
+.social_links a {
+  display:                          inline-block;
+  margin-left:                      6px;
+}
+
+.social_links img {
+  width:                            32px;
+  height:                           32px;
+  vertical-align:                   middle;
+  border-radius:                    3px;
+  box-shadow:                       0 1px 1px rgba(0, 0, 0, .75);
+}
+/* /Social media */
+
+
 /* Header tabbed menu */
 #header {
   min-height:             38px;
@@ -106,7 +161,7 @@ a {
   width:                  250px;
   position:               absolute;
   top:                    14px;
-  right:                  230px;
+  right:                  260px;
 }
 
 #header ul {
@@ -721,7 +776,7 @@ body#pictures_sent #submit_error {
 	padding-left:           25px;
 	position:               absolute;
 	top:                    .8em;
-	right:                  1.85em;
+	right:                  58px;
 }
 
 #global_search fieldset {
