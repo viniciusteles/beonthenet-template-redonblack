@@ -80,7 +80,12 @@ a {
 
 .social_media section {
   display:                          inline-block;
+  vertical-align:                   middle;
   width:                            49.5%;
+  opacity:                          .6;
+}
+.social_media section:hover {
+  opacity:                          1;
 }
 
 .social_media em {
@@ -93,10 +98,6 @@ a {
   color:                            #DDD;
 }
 
-.social_media iframe {
-  vertical-align:                   middle;
-}
-
 @media screen and (min-width:1024px) {
   .social_media {
     padding-right:                  60px;
@@ -107,8 +108,14 @@ a {
   }
 }
 
+.social_sharing > iframe, .social_sharing > div {
+  display:                          inline-block;
+  vertical-align:                   middle !important;
+}
+
 .social_links {
   text-align:                       right;
+  height:                           32px;
 }
 
 .social_links a {
