@@ -133,6 +133,24 @@ a {
 /* /Social media */
 
 
+/* Big picture social sharing */
+#big_picture #social_sharing, #big_video #social_sharing {
+  width:                            40px;
+  position:                         absolute;
+  top:                              82px;
+  right:                            43px;
+  display:                                                                                none;
+}
+#big_picture #social_sharing > iframe, #big_picture #social_sharing > div, 
+#big_video #social_sharing > iframe, #big_video #social_sharing > div {
+  margin:                           0 0 20px;
+}
+#big_picture #social_sharing > div:last-child {
+  margin:                           30px 0 0;
+}
+/* /Big picture social sharing */
+
+
 /* Header tabbed menu */
 #header {
   min-height:             38px;
