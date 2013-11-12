@@ -133,27 +133,6 @@ a {
 /* /Social media */
 
 
-/* Big picture social sharing */
-#big_picture #social_sharing, #big_video #social_sharing {
-  width:                            56px;
-  position:                         absolute;
-  top:                              3px;
-  right:                            -40px;
-}
-#big_picture #social_sharing > iframe, #big_picture #social_sharing > div, 
-#big_video #social_sharing > iframe, #big_video #social_sharing > div {
-  margin:                           0 0 17px;
-}
-#big_picture #social_sharing > div:last-child {
-  margin:                           27px 0 0;
-}
-#big_picture #social_sharing div a, #big_video #social_sharing div a {
-  position:                         relative !important;
-  top:                              0;
-}
-/* /Big picture social sharing */
-
-
 /* Header tabbed menu */
 #header {
   min-height:             38px;
@@ -473,18 +452,21 @@ body.videos #thumbnails img {
 }
 /* /Data sheet */
 
+
 /* Big picture, big video */
 #big_picture, #big_video {
   width:                  100%;
 	margin-bottom:          1em;
 	margin-top:             50px;
-  border-width:           1px;
-  border-style:           solid;
+  border-width:           1px solid #333;
 	position:               relative;
   z-index:                5;
+
+  background:             #333;
 }
 
-#big_picture a, #big_video a {
+#big_picture #previous, #big_picture #next, 
+#big_video #previous, #big_video #next {
 	width:                  4.75em;
   position:               absolute;
 	top:                    -40px;
@@ -506,10 +488,29 @@ body.videos #thumbnails img {
 	right:                  40px;
 }
 
-#big_picture a span, #big_video a span {
+#big_picture #previous span, #big_picture #next span, 
+#big_video #previous span, #big_video #next span {
 	width:                  101%;
 	height:                 60px;
 	position:               absolute;
+}
+#big_picture #previous span, #big_video #previous span {
+	background:             transparent url(../images/arrow_previous.gif) no-repeat top right;
+}
+#big_picture #previous:hover span, #big_video #previous:hover span {
+	background-image:       url(../images/arrow_previous_hover.gif);
+}
+#big_picture #previous:active span, #big_video #previous:active span {
+	background-image:       url(../images/arrow_previous_active.gif);
+}
+#big_picture #next span, #big_video #next span {
+	background:             transparent url(../images/arrow_next.gif) no-repeat top left;
+}
+#big_picture #next:hover span, #big_video #next:hover span {
+	background-image:       url(../images/arrow_next_hover.gif);
+}
+#big_picture #next:active span, #big_video #next:active span {
+	background-image:       url(../images/arrow_next_active.gif);
 }
 
 #big_picture img {
@@ -549,6 +550,27 @@ body.videos #thumbnails img {
   position:               static;
 }
 /* /Big picture, big video */
+
+
+/* Big picture social sharing */
+#big_picture #social_sharing, #big_video #social_sharing {
+  width:                            56px;
+  position:                         absolute;
+  top:                              3px;
+  right:                            -40px;
+}
+#big_picture #social_sharing > iframe, #big_picture #social_sharing > div, 
+#big_video #social_sharing > iframe, #big_video #social_sharing > div {
+  margin:                           0 0 17px;
+}
+#big_picture #social_sharing > div:last-child {
+  margin:                           47px 0 0;
+}
+#big_picture #social_sharing div img, #big_video #social_sharing div img {
+  padding:                          0;
+  border:                           none;
+}
+/* /Big picture social sharing */
 
 
 /* Tags */
