@@ -563,7 +563,8 @@ body.videos #thumbnails img {
 #big_video #social_sharing > iframe, #big_video #social_sharing > div {
   margin:                           0 0 17px;
 }
-#big_picture #social_sharing > div:last-child {
+#big_picture #social_sharing > div:last-child, 
+#big_video #social_sharing > div:last-child {
   margin:                           47px 0 0;
 }
 #big_picture #social_sharing div img, #big_video #social_sharing div img {
